@@ -1,0 +1,36 @@
+.navbar {
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #271e64;
+  height: 8vh;
+}
+
+.navbar__items {
+  list-style: none;
+  padding: 2rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  font-style: capitalize;
+}
+
+/*Remove CSS styling from button */
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-bottom: transparent solid 3px;
+}
+
+button:hover {
+  color: #ffcd00;
+  border-bottom: #ffcd00 solid 3px;
+}
